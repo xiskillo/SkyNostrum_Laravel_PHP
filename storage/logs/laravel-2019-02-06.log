@@ -1,0 +1,254 @@
+[2019-02-06 12:05:51] local.ERROR: The "-s" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"-s\" option does not exist. at C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Input\\ArgvInput.php:125)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Input\\ArgvInput.php(105): Symfony\\Component\\Console\\Input\\ArgvInput->parseShortOptionSet('seed')
+#1 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Input\\ArgvInput.php(84): Symfony\\Component\\Console\\Input\\ArgvInput->parseShortOption('-seed')
+#2 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Input\\Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#3 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Command\\Command.php(214): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#4 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#5 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(901): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\FreshCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\xampp\\htdocs\\skynostrum\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2019-02-06 12:06:05] local.ERROR: The "-s" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"-s\" option does not exist. at C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Input\\ArgvInput.php:125)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Input\\ArgvInput.php(105): Symfony\\Component\\Console\\Input\\ArgvInput->parseShortOptionSet('seeder')
+#1 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Input\\ArgvInput.php(84): Symfony\\Component\\Console\\Input\\ArgvInput->parseShortOption('-seeder')
+#2 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Input\\Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#3 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Command\\Command.php(214): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#4 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#5 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(901): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\FreshCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\xampp\\htdocs\\skynostrum\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2019-02-06 12:06:32] local.ERROR: Too many arguments, expected arguments "command". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Too many arguments, expected arguments \"command\". at C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Input\\ArgvInput.php:183)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Input\\ArgvInput.php(86): Symfony\\Component\\Console\\Input\\ArgvInput->parseArgument('seed')
+#1 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Input\\Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#2 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Command\\Command.php(214): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#3 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#4 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(901): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\FreshCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\skynostrum\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
+[2019-02-06 12:22:07] local.ERROR: Command "make" is not defined.
+
+Did you mean one of these?
+    make:auth
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make\" is not defined.
+
+Did you mean one of these?
+    make:auth
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test at C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php:632)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(226): Symfony\\Component\\Console\\Application->find('make')
+#1 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\skynostrum\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2019-02-06 12:22:14] local.ERROR: Cannot declare class CreateProductosTable, because the name is already in use {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Cannot declare class CreateProductosTable, because the name is already in use at C:\\xampp\\htdocs\\skynostrum\\database\\migrations\\2019_02_06_121734_create_productos_table.php:31)
+[stacktrace]
+#0 {main}
+"} 
+[2019-02-06 12:22:57] local.ERROR: Cannot declare class CreateProductosTable, because the name is already in use {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Cannot declare class CreateProductosTable, because the name is already in use at C:\\xampp\\htdocs\\skynostrum\\database\\migrations\\2019_02_06_121734_create_productos_table.php:31)
+[stacktrace]
+#0 {main}
+"} 
+[2019-02-06 12:59:58] local.ERROR: Method Illuminate\Database\Schema\Blueprint::unsignedInterger does not exist. {"exception":"[object] (BadMethodCallException(code: 0): Method Illuminate\\Database\\Schema\\Blueprint::unsignedInterger does not exist. at C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\Macroable.php:100)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\skynostrum\\database\\migrations\\2019_02_06_124414_create_ventas_table.php(24): Illuminate\\Database\\Schema\\Blueprint->__call('unsignedInterge...', Array)
+#1 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(164): CreateVentasTable->{closure}(Object(Illuminate\\Database\\Schema\\Blueprint))
+#2 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(1027): Illuminate\\Database\\Schema\\Builder->Illuminate\\Database\\Schema\\{closure}(Object(Illuminate\\Database\\Schema\\Blueprint))
+#3 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(165): tap(Object(Illuminate\\Database\\Schema\\Blueprint), Object(Closure))
+#4 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(237): Illuminate\\Database\\Schema\\Builder->create('ventas', Object(Closure))
+#5 C:\\xampp\\htdocs\\skynostrum\\database\\migrations\\2019_02_06_124414_create_ventas_table.php(27): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#6 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(360): CreateVentasTable->up()
+#7 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(367): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#8 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(178): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(CreateVentasTable), 'up')
+#9 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(147): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 1, false)
+#10 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(96): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#11 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(71): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#12 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#13 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#14 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#18 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArrayInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArrayInput), Object(Illuminate\\Console\\OutputStyle))
+#20 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(198): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArrayInput), Object(Illuminate\\Console\\OutputStyle))
+#21 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\FreshCommand.php(55): Illuminate\\Console\\Command->call('migrate', Array)
+#22 [internal function]: Illuminate\\Database\\Console\\Migrations\\FreshCommand->handle()
+#23 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#24 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#25 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#27 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#28 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#30 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(901): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\FreshCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 C:\\xampp\\htdocs\\skynostrum\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 {main}
+"} 
+[2019-02-06 13:37:29] local.ERROR: Unknown formatter "zipcode" {"exception":"[object] (InvalidArgumentException(code: 0): Unknown formatter \"zipcode\" at C:\\xampp\\htdocs\\skynostrum\\vendor\\fzaninotto\\faker\\src\\Faker\\Generator.php:242)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\skynostrum\\vendor\\fzaninotto\\faker\\src\\Faker\\Generator.php(222): Faker\\Generator->getFormatter('zipcode')
+#1 C:\\xampp\\htdocs\\skynostrum\\vendor\\fzaninotto\\faker\\src\\Faker\\Generator.php(268): Faker\\Generator->format('zipcode')
+#2 C:\\xampp\\htdocs\\skynostrum\\database\\factories\\ClientesFactory.php(12): Faker\\Generator->__get('zipcode')
+#3 [internal function]: Illuminate\\Database\\Eloquent\\Factory->{closure}(Object(Faker\\Generator), Array)
+#4 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\FactoryBuilder.php(273): call_user_func(Object(Closure), Object(Faker\\Generator), Array)
+#5 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\FactoryBuilder.php(292): Illuminate\\Database\\Eloquent\\FactoryBuilder->getRawAttributes(Array)
+#6 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(116): Illuminate\\Database\\Eloquent\\FactoryBuilder->Illuminate\\Database\\Eloquent\\{closure}()
+#7 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\FactoryBuilder.php(300): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#8 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\FactoryBuilder.php(229): Illuminate\\Database\\Eloquent\\FactoryBuilder->makeInstance(Array)
+#9 [internal function]: Illuminate\\Database\\Eloquent\\FactoryBuilder->Illuminate\\Database\\Eloquent\\{closure}(1)
+#10 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\FactoryBuilder.php(230): array_map(Object(Closure), Array)
+#11 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\FactoryBuilder.php(178): Illuminate\\Database\\Eloquent\\FactoryBuilder->make(Array)
+#12 C:\\xampp\\htdocs\\skynostrum\\database\\seeds\\DatabaseSeeder.php(18): Illuminate\\Database\\Eloquent\\FactoryBuilder->create()
+#13 [internal function]: DatabaseSeeder->run()
+#14 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#15 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(122): Illuminate\\Container\\Container->call(Array)
+#19 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#20 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#21 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#22 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#23 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#24 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#25 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#27 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#28 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArrayInput), Object(Illuminate\\Console\\OutputStyle))
+#29 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArrayInput), Object(Illuminate\\Console\\OutputStyle))
+#30 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(198): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArrayInput), Object(Illuminate\\Console\\OutputStyle))
+#31 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\FreshCommand.php(108): Illuminate\\Console\\Command->call('db:seed', Array)
+#32 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\FreshCommand.php(59): Illuminate\\Database\\Console\\Migrations\\FreshCommand->runSeeder(NULL)
+#33 [internal function]: Illuminate\\Database\\Console\\Migrations\\FreshCommand->handle()
+#34 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#35 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#36 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#37 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#38 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#39 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#40 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#41 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(901): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#42 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\FreshCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#43 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#44 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#45 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#46 C:\\xampp\\htdocs\\skynostrum\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#47 {main}
+"} 
+[2019-02-06 13:38:13] local.ERROR: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'cp' at row 1 (SQL: insert into `clientes` (`nombre`, `apellidos`, `direccion`, `ciudad`, `cp`, `updated_at`, `created_at`) values (Astrid Kozey MD, Effertz, 1385 Watsica Manors
+South Mohammed, OR 66346, North Desiree, 77948-1381, 2019-02-06 13:38:13, 2019-02-06 13:38:13)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 01000): SQLSTATE[01000]: Warning: 1265 Data truncated for column 'cp' at row 1 (SQL: insert into `clientes` (`nombre`, `apellidos`, `direccion`, `ciudad`, `cp`, `updated_at`, `created_at`) values (Astrid Kozey MD, Effertz, 1385 Watsica Manors
+South Mohammed, OR 66346, North Desiree, 77948-1381, 2019-02-06 13:38:13, 2019-02-06 13:38:13)) at C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: 01000): SQLSTATE[01000]: Warning: 1265 Data truncated for column 'cp' at row 1 at C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:458)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('insert into `cl...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(459): Illuminate\\Database\\Connection->run('insert into `cl...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(411): Illuminate\\Database\\Connection->statement('insert into `cl...', Array)
+#3 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Processors\\Processor.php(32): Illuminate\\Database\\Connection->insert('insert into `cl...', Array)
+#4 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2628): Illuminate\\Database\\Query\\Processors\\Processor->processInsertGetId(Object(Illuminate\\Database\\Query\\Builder), 'insert into `cl...', Array, 'id')
+#5 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(1338): Illuminate\\Database\\Query\\Builder->insertGetId(Array, 'id')
+#6 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(823): Illuminate\\Database\\Eloquent\\Builder->__call('insertGetId', Array)
+#7 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(788): Illuminate\\Database\\Eloquent\\Model->insertAndSetId(Object(Illuminate\\Database\\Eloquent\\Builder), Array)
+#8 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(651): Illuminate\\Database\\Eloquent\\Model->performInsert(Object(Illuminate\\Database\\Eloquent\\Builder))
+#9 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\FactoryBuilder.php(206): Illuminate\\Database\\Eloquent\\Model->save()
+#10 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Collection.php(418): Illuminate\\Database\\Eloquent\\FactoryBuilder->Illuminate\\Database\\Eloquent\\{closure}(Object(skynostrum\\Clientes), 1)
+#11 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\FactoryBuilder.php(207): Illuminate\\Support\\Collection->each(Object(Closure))
+#12 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\FactoryBuilder.php(185): Illuminate\\Database\\Eloquent\\FactoryBuilder->store(Object(Illuminate\\Database\\Eloquent\\Collection))
+#13 C:\\xampp\\htdocs\\skynostrum\\database\\seeds\\DatabaseSeeder.php(18): Illuminate\\Database\\Eloquent\\FactoryBuilder->create()
+#14 [internal function]: DatabaseSeeder->run()
+#15 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#16 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#17 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#18 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#19 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(122): Illuminate\\Container\\Container->call(Array)
+#20 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#21 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#22 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#23 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#24 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#25 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#26 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#27 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#28 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#29 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArrayInput), Object(Illuminate\\Console\\OutputStyle))
+#30 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArrayInput), Object(Illuminate\\Console\\OutputStyle))
+#31 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(198): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArrayInput), Object(Illuminate\\Console\\OutputStyle))
+#32 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\FreshCommand.php(108): Illuminate\\Console\\Command->call('db:seed', Array)
+#33 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\FreshCommand.php(59): Illuminate\\Database\\Console\\Migrations\\FreshCommand->runSeeder(NULL)
+#34 [internal function]: Illuminate\\Database\\Console\\Migrations\\FreshCommand->handle()
+#35 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#36 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#37 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#38 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#39 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#40 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#41 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#42 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(901): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#43 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\FreshCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#44 C:\\xampp\\htdocs\\skynostrum\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#45 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#46 C:\\xampp\\htdocs\\skynostrum\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#47 C:\\xampp\\htdocs\\skynostrum\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#48 {main}
+"} 
